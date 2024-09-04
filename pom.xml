@@ -59,7 +59,7 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
-<pluginRepositories>
+#<pluginRepositories>
     <pluginRepository>
         <id>repo1</id>
         <url>http://example.com/repo1</url>
