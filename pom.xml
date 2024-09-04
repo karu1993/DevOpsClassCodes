@@ -19,7 +19,9 @@
     <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
     <sonar.jacoco.reportPath>${project.basedir}/../target/jacoco.exec</sonar.jacoco.reportPath>
     <sonar.language>java</sonar.language>
-    </properties>
+
+        </properties>
+
     <repositories>
         <repository>
             <id>vaadin-prereleases</id>
@@ -44,7 +46,10 @@
             </snapshots>
         </repository>
     </repositories>
+
     <pluginRepositories>
+        <pluginRepository>
+            <id>vaadin-snapshots</id>
             <url>http://oss.sonatype.org/content/repositories/vaadin-snapshots/</url>
             <releases>
                 <enabled>false</enabled>
@@ -52,11 +57,19 @@
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
+        </pluginRepository>
     </pluginRepositories>
-   <pluginRepository> 
-    <id>maven2</id> 
-    <url>https://repo.maven.apache.org/maven2/</url> 
-  </pluginRepository> 
+<pluginRepositories>
+    <pluginRepository>
+        <id>repo1</id>
+        <url>http://example.com/repo1</url>
+    </pluginRepository>
+    <pluginRepository>
+        <id>repo2</id>
+        <url>http://example.com/repo2</url>
+    </pluginRepository>
+</pluginRepositories>
+
     <dependencies>
         <dependency>
             <groupId>com.vaadin</groupId>
