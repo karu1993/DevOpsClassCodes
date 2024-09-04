@@ -59,7 +59,7 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
-#<pluginRepositories>
+<!--pluginRepositories>
     <pluginRepository>
         <id>repo1</id>
         <url>http://example.com/repo1</url>
@@ -68,7 +68,7 @@
         <id>repo2</id>
         <url>http://example.com/repo2</url>
     </pluginRepository>
-</pluginRepositories>
+</pluginRepositories-->
 
     <dependencies>
         <dependency>
