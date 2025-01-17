@@ -5,7 +5,7 @@
     <groupId>com.edurekademo.tutorial</groupId>
     <artifactId>addressbook</artifactId>
     <packaging>war</packaging>
-    <version>3.3.1</version>
+    <version>2.0</version>
     <name>Vaadin Addressbook example</name>
 
     <properties>
@@ -59,16 +59,12 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
-<!--pluginRepositories>
-    <pluginRepository>
-        <id>repo1</id>
-        <url>http://example.com/repo1</url>
-    </pluginRepository>
-    <pluginRepository>
-        <id>repo2</id>
-        <url>http://example.com/repo2</url>
-    </pluginRepository>
-</pluginRepositories-->
+<pluginRepositories>
+   <pluginRepository> 
+    <id>maven2</id> 
+    <url>https://repo.maven.apache.org/maven2/</url> 
+  </pluginRepository> 
+</pluginRepositories>
 
     <dependencies>
         <dependency>
